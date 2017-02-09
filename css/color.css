@@ -1,0 +1,109 @@
+main {
+  position: fixed;;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -200px;
+    width: 100%; 
+
+}
+
+body, html {
+  background-color: #202020;
+  width: 100%;
+
+}
+
+h1 {
+  color: #faebd7;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+svg {
+  background-color: red;
+  opacity: .5;
+  padding: 0px;
+  border-radius: 100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  width: 200px;
+  height: 200px;
+
+}
+
+svg.pink {
+  background-color: #ff007f;
+  position: absolute;
+  left: 100px;
+}
+
+svg.red {
+  background-color: #ff0000;
+  position: absolute;
+  top: 50px;
+  left: 186px;
+}
+
+svg.yellow {
+  background-color: #ffff00;
+  position: absolute;
+  top: 150px;
+  left: 186px;
+}
+/* no rainbows... if it doesn't rain. */
+
+svg.green {
+  background-color: #00ff00;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+/* put the lime in the coconut*/
+
+svg.blue {
+  background-color: #0000ff;
+  position: absolute;
+  top: 150px;
+  left: 14px;
+}
+/* I am always singing the blues*/
+
+svg.purple {
+  background-color: #7f00ff;
+  position: absolute;
+  left: 14px;
+  top: 50px;
+}
+
+svg.pink:hover {
+    background-color: #ff007f;
+    opacity: 1;
+}
+
+svg.red:hover {
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+svg.yellow:hover {
+    background-color: #ffff00;
+    opacity: 1;
+}
+
+svg.green:hover {
+    background-color: #00ff00;
+    opacity: 1;
+}
+
+svg.blue:hover {
+    background-color: #0000ff;
+    opacity: 1;
+}
+
+svg.purple:hover {
+    background-color: #7f00ff;
+    opacity: 1;
+}
